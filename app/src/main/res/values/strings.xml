@@ -2,4 +2,8 @@
     <string name="app_name">GoGarage</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_title_go">Go</string>
+    <string name="fragment_title_garage">Garage</string>
+    <string name="fragment_subtitle_liberdade">Liberadade e segurança</string>
+    <string name="fragment_buttom_vamos_comecar">Vamos Começar</string>
 </resources>

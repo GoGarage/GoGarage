@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ui.SplashFragment">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/tvGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/fragment_title_go"
+            android:textColor="@color/verde_escuro"
+            android:textSize="42sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/tvGarage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/fragment_title_garage"
+            android:textColor="@color/verde_escuro"
+            android:textSize="42sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvGo"
+            app:layout_constraintStart_toEndOf="@+id/tvGo"
+            app:layout_constraintTop_toTopOf="@+id/tvGo" />
+
+        <TextView
+            android:id="@+id/tvSubtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:text="@string/fragment_subtitle_liberdade"
+            android:textColor="@color/verde_escuro"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/tvGo"
+            app:layout_constraintTop_toBottomOf="@+id/tvGo" />
+
+        <ImageView
+            android:id="@+id/imgWorld"
+            android:layout_width="442dp"
+            android:layout_height="312dp"
+            android:src="@drawable/splashfragment_world"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnVamosComecar"
+            android:layout_width="306dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="105dp"
+            android:text="@string/fragment_buttom_vamos_comecar"
+            android:fontFamily="@font/roboto_bold"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:backgroundTint="@color/verde_escuro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgWorld" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
