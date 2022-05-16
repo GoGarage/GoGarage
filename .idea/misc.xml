@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/sdk/ProjetosAndroid/GoGarage/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/sdk/ProjetosAndroid/GoGarage/app/src/main/res/layout/fragment_splash.xml" value="0.33" />
       </map>
     </option>

@@ -6,4 +6,17 @@
     <string name="fragment_title_garage">Garage</string>
     <string name="fragment_subtitle_liberdade">Liberdade e segurança</string>
     <string name="fragment_buttom_vamos_comecar">Vamos Começar</string>
+    <string name="fragment_buttom_entrar">Entrar</string>
+    <string name="fragment_title_entrar">Entrar</string>
+    <string name="fragment_title_email">E-mail</string>
+    <string name="fragment_title_senha">Senha</string>
+    <string name="fragment_title_esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="fragment_checkbox_lembrar_conta">Lembrar conta</string>
+    <string name="fragment_title_ainda_nao_tem_conta">Ainda não tem conta?</string>
+    <string name="fragment_title_cadastrase">Cadastra-se</string>
+
+
+
+
+
 </resources>
